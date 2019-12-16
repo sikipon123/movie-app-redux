@@ -1,0 +1,154 @@
+.App {
+  background-image: url("https://images.hdqwalls.com/wallpapers/bthumb/dark-gold-pattern-4k-po.jpg");
+  width: 100%;
+  height: 100vw;
+}
+.maj {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.active-cyan-4 input[type="text"]:focus:not([readonly]) {
+  border: 1px solid #4dd0e1;
+  box-shadow: 0 0 0 1px #4dd0e1;
+}
+.active-cyan-3 input[type="text"] {
+  border: 1px solid #4dd0e1;
+  box-shadow: 0 0 0 1px #4dd0e1;
+}
+.searchinput {
+  width: 70%;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 100px;
+  flex-wrap: wrap;
+  top: 50px;
+  width: 80%;
+}
+
+.box-vision {
+  max-width: 305px;
+  min-height: 445px;
+  margin-bottom: 25px;
+  border-radius: 7px;
+  border: 2px solid black;
+  margin-left: 10px;
+}
+
+.box-img {
+  width: 300px;
+  height: 350px;
+  border-radius: 7px;
+}
+
+.box-vision:hover {
+  box-shadow: 3px 4px 25px 5px #f7b42c;
+  text-decoration: none;
+}
+
+.division {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.division p {
+  color: #f7b42c;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.reeditbtn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.movierate {
+  font-size: 25px;
+  position: absolute;
+  right: 5px;
+  bottom: 365px;
+  color: #f7b42c;
+}
+
+.searchstars {
+  font-size: 50px;
+  position: absolute;
+  right: 15px;
+  top: -10px;
+  color: #f7b42c;
+}
+
+.PageHeading {
+  color: blue;
+  background-color: lightgreen;
+  margin-top: 20px;
+}
+
+.addmoviemodalbody {
+  margin-right: 970px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin-left: 100px;
+}
+
+.addmoviemodalbody:hover {
+  box-shadow: 3px 4px 25px 5px #f7b42c;
+  text-decoration: none;
+}
+
+.addmoviemodal {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.addmoviemodal img {
+  width: 250px;
+  height: 270px;
+}
+
+.addmoviemodal p {
+  color: #f7b42c;
+  font-size: 25px;
+  text-decoration: none;
+  align-self: center;
+}
+
+.delete-btn {
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+}
+
+.trailer-btn {
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+
+.edit-btn {
+  background-color: #1e1d1b;
+  background-image: linear-gradient(315deg, #1e1d1b 0%, #cc9934 74%);
+}
+
+.trailer {
+  display: flex;
+  flex-direction: column;
+  padding: 155px;
+  margin: -70px 20px;
+}
+
+.trailer-title {
+  color: darkred;
+  align-self: center;
+  font-size: 65px;
+}
+
+.back-btn{
+  padding: 10px;
+}
